@@ -23,7 +23,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 29
-
+    namespace = "com.example.logcat_monitor"
+    
     defaultConfig {
         minSdkVersion 16
     }
